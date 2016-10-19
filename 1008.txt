@@ -1,0 +1,33 @@
+(一)提取底层特征：sift lbp gist ch
+代码路径：/home/user1/0TODO/ex01/
+	demo_low_level_features_aid.m
+	LocalFeatureAll_aid.m
+	LocalFeature.m
+	sp_dense_color.m
+	sp_dense_sift.m
+	LMgist.m
+	lbp.m
+实验结果
+单独抽取特征：/home/user1/0TODO/temp_data/localfeature/aid/
+	包括30个文件夹，对应30类。每一个文件夹中有每一张图片对应的特征：ch/ibp256/sift
+	gist特征单独存放在：/home/user1/0TODO/temp_data/localfeature/aid_gist/
+图像特征汇总：/home/user1/0TODO/SVM/mergedata/
+	Alldldata.mat : 10000x4096
+	Allgistdata.mat : 10000x512
+特征融合
+	使用命令行 A = [Alldldata Allgistdata];将两种特征拼接。得到A 10000x4608
+抽取训练样本/测试样本/home/user1/0TODO/SVM/mergedata/
+	函数：credatadlgist.m 对每类数据抽取训练/测试样本
+	得到结果：/home/user1/0TODO/SVM/mergedata/
+	Training.mat 
+		Trainingdata
+		Labledata
+	Test.mat
+		Testdata
+		TestLabledata
+	order.mat %the order of the data
+训练SVM使用函数svmmodel.m需要切换到SVM目录下：/home/user1/0TODO/SVM/libsvm-3.21/matlab
+	得到分类结果：dlgistsvmresoult.mat；里面包括predicted_label accuracy decision_values mm
+	
+	
+	
