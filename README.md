@@ -18,3 +18,5 @@ xgboost调参指南：https://www.analyticsvidhya.com/blog/2016/03/complete-guid
 时间序列特征提取库：https://github.com/blue-yonder/tsfresh
 
 一篇关于训练数据量对结果影响的论文：http://web.mit.edu/vondrick/bigdata.pdf
+
+https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/discussion/8023
