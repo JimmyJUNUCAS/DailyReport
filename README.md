@@ -20,3 +20,6 @@ xgboost调参指南：https://www.analyticsvidhya.com/blog/2016/03/complete-guid
 一篇关于训练数据量对结果影响的论文：http://web.mit.edu/vondrick/bigdata.pdf
 
 https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/discussion/8023
+
+
+本书链接为：C++ Perimer https://pan.baidu.com/s/1nvsP4WL
