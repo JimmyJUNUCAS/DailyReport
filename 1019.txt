@@ -1,4 +1,4 @@
-特征分析
+﻿特征分析
 	将输出的预测label与实际label进行比较，得到二者的分析矩阵。
 	编写代码：/home/user1/0TODO/SVM/libsvm-3.21/matlab/distanceofTF
 	得到二者的分析矩阵。
